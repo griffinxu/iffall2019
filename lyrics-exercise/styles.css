@@ -1,0 +1,21 @@
+body {
+	font-family: lithos pro;
+	animation: colorchange 15s infinite;
+	-webkit-animation: colorchange 15s infinite;
+}
+
+@keyframes colorchange{
+	0% {background-color:#fab907;}
+	25% {background-color: #afe813;}
+	50% {background-color: #5b96f0;}
+	75% {background-color: #afe813;}
+	100% {background-color:#fab907;}
+}
+
+audio{
+	width:300px;
+}
+
+.kae{
+	font-size:130%;
+}

@@ -1,0 +1,37 @@
+body {
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	animation: colorchange 15s infinite;
+	-webkit-animation: colorchange 15s infinite;
+}
+
+@keyframes colorchange{
+	0% {background-color:#DC143C;}
+	20% {background-color: #FFD700;}
+	40%{ background-color:#20B2AA}
+	60% {background-color: #87CEFA;}
+	80% {background-color: #800080;}
+	100% {background-color:#DC143C;}
+}
+
+audio{
+	width:300px;
+}
+
+.kae{
+	font-size:130%;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.ship{
+	font-family: 'Kaushan Script', cursive;
+}
+
+.happy{
+  	letter-spacing: 0.3em;
+}
+
+.pa{
+	text-decoration-line: overline;
+  	text-decoration-style: wavy;
+}

@@ -14,6 +14,7 @@ section{
 	text-align:center;
 	background-image: url("lavender1.jpg");
 	background-size:cover;
+	/*background-position:center;*/
 }
 
 h1{
@@ -77,9 +78,18 @@ h2{
 }
 
 .column{
+	box-sizing: border-box;
 	width:50%;
 	float:left;
 	text-align: left;
+}
+
+.column.left{
+	padding-right: 20px;
+}
+
+.column.right{
+	padding-left: 20px;
 }
 
 
@@ -101,6 +111,7 @@ h3{
 	font-size: 20px;
 	color:white;
 	text-align: left;
+	margin-bottom:0;
 
 }
 
@@ -110,10 +121,11 @@ h3{
     color: white;
     text-align: left;
     font-weight: 400;
+    margin:10px;
 }
 
 .image{
-	padding-bottom: 22.5px;
+	padding-bottom: 8px;
 }
 
 .last{

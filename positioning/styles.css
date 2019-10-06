@@ -1,0 +1,38 @@
+.firstsection{
+    float: right;
+}
+
+
+.second{
+	position:relative;
+}
+.secondsection{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.thirdsection{
+	background-color: green;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+
+
+
+.firstcallout{
+	background-color: red;
+    position: absolute;
+    left: 450px;
+    z-index: 100;
+   
+}
+
+.secondcallout{
+    background-color: black;
+    position:absolute;
+    left: 460px;
+ 
+}

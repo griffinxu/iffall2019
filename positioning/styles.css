@@ -20,19 +20,22 @@
 }
 
 
-
+.fourth{
+    position:relative;
+}
 
 .firstcallout{
 	background-color: red;
     position: absolute;
-    left: 450px;
+    left: 330px;
     z-index: 100;
-   
+    top:240px;
 }
 
 .secondcallout{
     background-color: black;
     position:absolute;
-    left: 460px;
+    left: 340px;
+    top:250px;
  
 }

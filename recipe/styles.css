@@ -1,0 +1,101 @@
+body {
+	background-color:rgb(241, 224, 138, 0.5) ;
+	margin:0;
+}
+
+body h1 {
+	font-weight:lighter;
+	font-size:45pt;
+	font-family: 'Damion', cursive;
+	color:white;
+	background-color: #B2B214;
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+img.oc1{
+	margin:0;
+	height:600px;
+	width: 450px;
+}
+
+.intro{
+	font-family: 'Merriweather', serif;
+	margin-top:0;
+	text-align: center;
+}
+.intro h2{
+	font-size:40pt;
+	color:#D06000;
+	margin-bottom: -5px;
+	margin-top: 20px;
+}
+
+.intro h3{
+	text-decoration: underline overline dotted white;
+	font-size:15pt;
+	color:#D06000;
+}
+
+.ingredients{
+	font-family: 'Merriweather', serif;
+	margin-top:10;
+
+}
+
+.ingredients h2{
+	color:white;
+	background-color: #D06000;
+	font-size: 20pt;
+	text-align: center;
+}
+
+img.oc2{
+	margin:0;
+	height:600px;
+	width: 450px;
+	margin-bottom: 5px;
+}
+
+.instructions{
+	font-family: 'Merriweather', serif;
+	margin-top:10;
+}
+
+.instructions h2{
+	color:white;
+	background-color: #D06000;
+	font-size: 20pt;
+	text-align: center;
+	margin-top: 0;
+}
+
+.instructions li{
+	font-size: 12pt;
+	margin-bottom: 30px;
+}
+
+.instructions img{
+	height:250px;
+	width: 350px;
+	margin-top: 10px;
+
+}
+
+.lastsec h2{
+	font-weight:lighter;
+	font-size:45pt;
+	font-family: 'Damion', cursive;
+	color:white;
+	background-color: #B2B214;
+	text-align: center;
+	margin-bottom:0px;
+}
+
+img.oc3{
+	margin:0;
+	height:600px;
+	width: 500px;
+	margin-top: 0px;
+}

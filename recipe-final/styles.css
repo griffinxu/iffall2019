@@ -67,8 +67,9 @@ img.oc1{
 	margin-top: 40px;
 }
 
-.ingredients li{
+.ingredients ul{
 	line-height: 29px;
+	padding-right: 40px;
 }
 
 img.oc2{

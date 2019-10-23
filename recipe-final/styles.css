@@ -1,0 +1,145 @@
+body {
+	background-color:#fdf6d1 ;
+	margin:0;
+}
+
+body h1 {
+	font-weight:lighter;
+	font-size:50pt;
+	font-family: 'Damion', cursive;
+	color:white;
+	background-color: #B2B214;
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	padding-top:20px;
+}
+
+
+
+img{
+	max-width: 100%;
+	align-content: center;
+}
+
+img.oc1{
+	margin:0;
+	
+}
+
+.intro{
+	font-family: 'Merriweather', serif;
+	margin-top:0;
+	text-align: center;
+}
+.intro h2{
+	font-size:40pt;
+	color:#D06000;
+	margin-bottom: -5px;
+	margin-top: 20px;
+}
+
+.intro h3{
+	text-decoration: underline overline dotted white;
+	font-size:15pt;
+	color:#D06000;
+}
+
+.ingredients{
+	font-family: 'Merriweather', serif;
+	margin-top:10;
+	font-size: 15pt;
+
+}
+
+.ingredients h3{
+	padding-left: 40px;
+	margin-bottom: -5px;
+
+}
+
+.ingredients h2{
+	color:#fdf6d1;
+	background-color: #D06000;
+	font-size: 25pt;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.ingredients li{
+	line-height: 29px;
+}
+
+img.oc2{
+	margin:0;
+	margin-bottom: 5px;
+}
+
+.instructions{
+	font-family: 'Merriweather', serif;
+	margin-top:10;
+}
+
+.instructions h2{
+	color:#fdf6d1;
+	background-color: #D06000;
+	font-size: 25pt;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.instructions li{
+	font-size: 15pt;
+	line-height:29px;
+	margin-bottom: 30px;
+	position:relative;
+	display:block;
+	padding-left:10px;
+
+}
+
+/*Ab's help*/
+.instructions li:before{
+	left:-20px;
+	position:absolute;
+	font-style: italic;
+	font-size: 30px;
+	background-color:#D06000;
+	color:#fdf6d1;
+	counter-increment: section;
+  	content: counter(section);
+  	padding-left:2px;
+  	padding-right:2px;
+}
+
+.instructions ol{
+	counter-reset: section;
+	padding-right: 40px;
+	padding-left:30px;
+}
+
+/*.instructions li>div{
+	font-size: 12pt;
+}*/
+
+.instructions img{
+	width: 350px;
+	margin-top: 10px;
+
+}
+
+.lastsec h2{
+	font-weight:lighter;
+	font-size:45pt;
+	font-family: 'Damion', cursive;
+	color:white;
+	background-color: #B2B214;
+	text-align: center;
+	margin-bottom:0px;
+}
+
+img.oc3{
+	margin:0;
+	margin-top: 0px;
+}

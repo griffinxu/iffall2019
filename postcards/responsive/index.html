@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Griffin's Triptych</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style>
+		body>div{
+			background-image: url(howl.jpg);
+			background-size: cover;
+			background-position: bottom center;
+			height: 100%;
+			position: relative;
+		}
+
+		.quote {
+			font-family: 'Vollkorn', serif;
+			position: absolute;
+			right: 3em;
+			bottom: 10%;
+			max-width: 85%;
+			text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+			color:#F4F2F1;
+			}
+
+		.message {
+			font-size: 1.9em;
+			font-weight: 900;
+			}
+		.attribution {
+			margin-top: 0.5em;
+			text-align: right;
+			font-size: 1.3em;
+
+			}
+		
+		@media (min-width: 600px) {
+					body {
+						padding: 2em;
+						top:1%;
+					}
+					
+					.quote {
+						right: 10em;
+						bottom: 30%;
+						max-width: 85%;
+				}
+			}
+			@media (min-width: 400px) {
+					body {
+						padding: 2em;
+					}
+					.quote {
+						right: 8em;
+						bottom: 40%;
+						max-width: 55%;
+						font-size:1em;
+
+					}
+					.attribution{
+						font-size:1.2em;
+					}
+		
+
+			}
+
+		@media (min-width: 1200px) {
+					.quote {
+						max-width: 85%;
+						right: 3em;
+						bottom:3%;
+					}
+					.message {
+						font-size: 1.9em;
+					}
+				}
+
+	</style>
+</head>
+<body>
+	<a href="card2.html"></a>
+	<div>
+		<div class="quote">
+			<div class="message">&ldquo;A heart’s a heavy burden.&rdquo;</div>
+			<div class="attribution"><i>Howl’s Moving Castle</i>, 2004</div>
+		</div>
+	</div>
+</body>
+</html>

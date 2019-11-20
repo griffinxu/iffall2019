@@ -1,0 +1,28 @@
+body{
+	font-family: 'Merriweather', serif;
+	background-color: black;
+	padding-left: 15rem;
+	padding-right: 15rem;
+}
+
+h1{
+	padding-top: 1rem;
+	color: white;
+
+}
+
+h2{
+	color:white;
+	font-size: 100%;
+	padding-bottom: 0;
+}
+
+h3{
+	color: #4d9900;
+	font-size: 100%;
+	padding-top: 1rem;
+}
+
+img{
+	max-width: 100%;
+}
